@@ -3,8 +3,8 @@
   become: true
   tasks:
     - name: Create new deployment
-      cmd:
+      command:
         kubectl apply -f /home/ubuntu/Deployment.yml
     - name: Create new service
-      cmd:
+      command:
         kubectl apply -f /home/ubuntu/Service.yml
