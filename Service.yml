@@ -1,6 +1,6 @@
 
 kind: Service
-appVersion: V1
+apiVersion: V1
 metadata:
   name: webapp
   labels: 
